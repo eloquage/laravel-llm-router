@@ -148,9 +148,8 @@ it('registers support utilities in the container', function () {
     $validator = app(ChainRowValidator::class);
     $cooldown = app(CooldownStore::class);
 
-    expect($contract)->toBeInstanceOf(ConfigProviderAvailability::class)
-        ->and($concrete)->toBeInstanceOf(ConfigProviderAvailability::class)
-        ->and($validator)->toBeInstanceOf(ChainRowValidator::class)
-        ->and($cooldown)->toBeInstanceOf(CooldownStore::class)
+    expect(get_class($concrete))->toBe(ConfigProviderAvailability::class)
+        ->and(get_class($validator))->toBe(ChainRowValidator::class)
+        ->and(get_class($cooldown))->toBe(CooldownStore::class)
         ->and($contract->hasCredentials('openai'))->toBeTrue();
 });

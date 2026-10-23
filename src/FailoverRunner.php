@@ -156,17 +156,26 @@ class FailoverRunner
         if (is_object($usage) && method_exists($usage, 'toArray')) {
             /** @var mixed $toArray */
             $toArray = $usage->toArray();
+            if (! is_array($toArray)) {
+                return null;
+            }
+
+            $promptTokens = $toArray['prompt_tokens'] ?? null;
+            $completionTokens = $toArray['completion_tokens'] ?? null;
 
             return [
-                'prompt_tokens' => (int) ($toArray['prompt_tokens'] ?? 0),
-                'completion_tokens' => (int) ($toArray['completion_tokens'] ?? 0),
+                'prompt_tokens' => is_numeric($promptTokens) ? (int) $promptTokens : 0,
+                'completion_tokens' => is_numeric($completionTokens) ? (int) $completionTokens : 0,
             ];
         }
 
         if (is_object($usage) && property_exists($usage, 'promptTokens')) {
+            $promptTokens = $usage->promptTokens;
+            $completionTokens = $usage->completionTokens ?? null;
+
             return [
-                'prompt_tokens' => (int) $usage->promptTokens,
-                'completion_tokens' => (int) ($usage->completionTokens ?? 0),
+                'prompt_tokens' => is_numeric($promptTokens) ? (int) $promptTokens : 0,
+                'completion_tokens' => is_numeric($completionTokens) ? (int) $completionTokens : 0,
             ];
         }
 
