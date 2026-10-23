@@ -1,7 +1,7 @@
 # Laravel LLM Router
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/illuma-law/laravel-llm-router.svg?style=flat-square)](https://packagist.org/packages/illuma-law/laravel-llm-router)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/illuma-law/laravel-llm-router/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/illuma-law/laravel-llm-router/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/eloquage/laravel-llm-router/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/eloquage/laravel-llm-router/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/illuma-law/laravel-llm-router.svg?style=flat-square)](https://packagist.org/packages/illuma-law/laravel-llm-router)
 
 A production-grade, highly resilient LLM routing and failover system for Laravel applications. 

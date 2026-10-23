@@ -9,7 +9,7 @@
         "failover",
         "circuit-breaker"
     ],
-    "homepage": "https://github.com/illuma-law/laravel-llm-router",
+    "homepage": "https://github.com/eloquage/laravel-llm-router",
     "license": "MIT",
     "authors": [
         {
