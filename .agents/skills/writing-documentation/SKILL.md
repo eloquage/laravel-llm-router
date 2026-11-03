@@ -7,7 +7,7 @@ metadata:
 
 # Writing and documentation
 
-Write documentation for `illuma-law/laravel-llm-router` (A resilient AI routing and circuit-breaker system for LLM requests in Laravel.) that lets the intended reader complete a concrete task.
+Write documentation for `eloquage/laravel-llm-router` (A resilient AI routing and circuit-breaker system for LLM requests in Laravel.) that lets the intended reader complete a concrete task.
 
 ## Source and structure
 

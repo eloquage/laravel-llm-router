@@ -1,5 +1,5 @@
 {
-    "name": "illuma-law/laravel-llm-router",
+    "name": "eloquage/laravel-llm-router",
     "description": "A resilient AI routing and circuit-breaker system for LLM requests in Laravel.",
     "keywords": [
         "illuma-law",

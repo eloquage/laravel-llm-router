@@ -7,7 +7,7 @@ metadata:
 
 # Laravel package development
 
-Use this skill when changing this Composer package: `illuma-law/laravel-llm-router` — A resilient AI routing and circuit-breaker system for LLM requests in Laravel.
+Use this skill when changing this Composer package: `eloquage/laravel-llm-router` — A resilient AI routing and circuit-breaker system for LLM requests in Laravel.
 
 ## Package context
 

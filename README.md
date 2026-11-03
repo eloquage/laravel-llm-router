@@ -6,7 +6,7 @@ Route Laravel AI requests through ordered provider/model chains with retries,
 fallbacks, and tenant-aware overrides.
 
 [![Tests](https://github.com/eloquage/laravel-llm-router/actions/workflows/run-tests.yml/badge.svg)](https://github.com/eloquage/laravel-llm-router/actions/workflows/run-tests.yml)
-[![Latest Version](https://img.shields.io/packagist/v/illuma-law/laravel-llm-router)](https://packagist.org/packages/illuma-law/laravel-llm-router)
+[![Latest Version](https://img.shields.io/packagist/v/eloquage/laravel-llm-router)](https://packagist.org/packages/eloquage/laravel-llm-router)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Requires PHP 8.3+ and Laravel 11, 12, or 13. Install Laravel AI and configure
@@ -16,7 +16,7 @@ the router without Laravel AI by providing your own request closure.
 ## Install
 
 ```bash
-composer require illuma-law/laravel-llm-router
+composer require eloquage/laravel-llm-router
 php artisan vendor:publish --tag=llm-router-config
 ```
 
