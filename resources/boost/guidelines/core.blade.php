@@ -1,4 +1,4 @@
-# illuma-law/laravel-llm-router
+# eloquage/laravel-llm-router
 
 Resilient LLM routing and failover system. Supports automatic failover, circuit breaking, and tenant-aware routing.
 

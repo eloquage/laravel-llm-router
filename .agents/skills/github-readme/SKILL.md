@@ -7,7 +7,7 @@ metadata:
 
 # GitHub README
 
-For `illuma-law/laravel-llm-router` (A resilient AI routing and circuit-breaker system for LLM requests in Laravel.), make the README useful to a developer deciding whether to install the package and then trying it in a real application.
+For `eloquage/laravel-llm-router` (A resilient AI routing and circuit-breaker system for LLM requests in Laravel.), make the README useful to a developer deciding whether to install the package and then trying it in a real application.
 
 ## Ground every claim
 
