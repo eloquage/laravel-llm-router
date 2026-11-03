@@ -2,7 +2,7 @@
     "name": "eloquage/laravel-llm-router",
     "description": "A resilient AI routing and circuit-breaker system for LLM requests in Laravel.",
     "keywords": [
-        "illuma-law",
+        "eloquage",
         "laravel",
         "llm-router",
         "ai",
@@ -13,8 +13,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "illuma-law",
-            "email": "support@illuma.law",
+            "name": "Eloquage",
             "role": "Developer"
         }
     ],
